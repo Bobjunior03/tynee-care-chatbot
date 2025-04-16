@@ -1,1 +1,20 @@
-<h1>Chatbot Tynée Care - Coming soon</h1>
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Chatbot Tynée Care</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="chatbot" class="chat-container hidden">
+    <div id="chatMessages" class="chat-messages"></div>
+    <div class="chat-input">
+      <input type="text" id="userInput" placeholder="Écrivez votre message..." />
+      <button onclick="sendMessage()">Envoyer</button>
+    </div>
+  </div>
+  <div class="chat-toggle" onclick="toggleChat()">💬</div>
+  <script src="script.js"></script>
+</body>
+</html>
